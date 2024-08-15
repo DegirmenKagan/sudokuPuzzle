@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Cell from "../Cell/Cell";
+import "./SudokuBoard.css";
 
 const fillEmptyBoard = () => {
   return Array(9)
