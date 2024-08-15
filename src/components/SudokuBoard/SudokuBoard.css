@@ -1,0 +1,19 @@
+.sudoku-board {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 1px;
+  border: 1px solid #ccc;
+}
+
+.sudoku-row {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.sudoku-board .sudoku-row:nth-child(3n) {
+  border-bottom: 6px solid "red";
+}
+
+.sudoku-board .cell:nth-child(3n) {
+  border-right: 6px solid "red";
+}
